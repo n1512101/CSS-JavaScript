@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="mobile-menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <script>
+      const mobile_menu_icon = document.querySelector('.mobile-menu-icon')
+      const body = document.querySelector('body')
+
+      mobile_menu_icon.addEventListener('click', () => {
+        body.classList.toggle('menu-open')
+      })
+    </script>
+  </body>
+</html>

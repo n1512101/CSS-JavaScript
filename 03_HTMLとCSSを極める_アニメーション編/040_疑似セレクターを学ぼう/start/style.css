@@ -1,0 +1,6 @@
+div span {
+  color: olive;
+}
+div span:not(.cls) {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
